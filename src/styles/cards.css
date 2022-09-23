@@ -1,0 +1,33 @@
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 0 10px gray;
+  width: 350px;
+  background-color: bisque;
+  padding: 20px;
+  margin-top: 1em;
+}
+.card-image {
+  border-radius: 50%;
+  width: 125px;
+  margin-top: 1rem;
+  box-shadow: 0 0 4px black;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.card-content-list {
+  list-style: none;
+  margin-left: 1rem;
+}

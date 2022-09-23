@@ -1,0 +1,21 @@
+h1 {
+    background-color: aliceblue;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: aliceblue;
+}
+.navigation-unorderedlist {
+    display: flex;
+    align-items: center;
+}
+.navigation-unorderedlist-list {
+  display: inline;
+  margin-left: 1rem;
+}
+.navigation-unorderedlist-image {
+  width: 15%;
+}

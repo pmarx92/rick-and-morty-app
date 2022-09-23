@@ -5,14 +5,23 @@ section {
   margin-top: 1rem;
   margin-left: 1rem;
 }
+.Alive {
+    background-color: lightgreen;
+}
+.Dead {
+    background-color: lightgray;
+}
+.unknown {
+    background-color: lawngreen;
+}
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   box-shadow: 0 0 10px gray;
+  border-radius: 10px;
   width: 350px;
-  background-color: bisque;
   padding: 20px;
   margin-top: 1em;
 }

@@ -11,11 +11,14 @@ h1 {
 .navigation-unorderedlist {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .navigation-unorderedlist-list {
   display: inline;
   margin-left: 1rem;
+  width: 100%;
 }
 .navigation-unorderedlist-image {
-  width: 15%;
+  width: 20%;
+  
 }

@@ -14,9 +14,19 @@
     <h1>Rick and Morty</h1>
     <nav class="navigation">
       <ul class="navigation-unorderedlist">
-        <li class="navigation-unorderedlist-list"><img class="navigation-unorderedlist-image" src="favicon.svg" alt=""></li>
-        <li class="navigation-unorderedlist-list"><button>Dropdown</button></li>
-        <li class="navigation-unorderedlist-list"><button>Load Data</button></li>
+        <li class="navigation-unorderedlist-list"><img class="navigation-unorderedlist-image" src="favicon.svg" alt="">
+        </li>
+        <li class="navigation-unorderedlist-list">
+          <select data-js="dropdown">
+            <option value="">Select</option>
+            <option value="Alive">Alive</option>
+            <option value="Dead">Dead</option>
+            <option value="unknown">unknown</option>
+          </select>
+          <label for="search"></label>
+          <input type="text" id="search" data-js="searchBar">
+        </li>
+        <li class="navigation-unorderedlist-list"><button class="load-Data" data-js="loadData">Load Data</button></li>
       </ul>
     </nav>
 

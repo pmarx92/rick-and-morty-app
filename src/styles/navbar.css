@@ -22,7 +22,7 @@ h1 {
   width: 100%;
 }
 .navigation-unorderedlist-image {
-  width: 20%;
+  width: 10%;
 }
 .load-data {
   padding: 5px;
@@ -31,4 +31,9 @@ h1 {
   margin-left: 15px;
   margin-right: 5px;
   color: var(--white);
+}
+@media only screen and (max-width: 600px) {
+  .navigation-unorderedlist-image {
+    visibility: hidden;
+  }
 }

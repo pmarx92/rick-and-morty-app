@@ -10,6 +10,7 @@ section {
 }
 .Dead {
   background-color: var(--card-DeadColor);
+
 }
 .unknown {
   background-color: var(--card-unknownColor);

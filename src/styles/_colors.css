@@ -1,3 +1,8 @@
 :root {
-  /* Define your variable colors here */
+  --card-aliveColor: #3ca6a6;
+  --card-DeadColor: #026773;
+  --card-unknownColor: #f2e3d5;
+  --headlineColor: #012e40;
+  --navbarColor: #024959;
+  --white: #fff;
 }

@@ -17,8 +17,6 @@ async function fetchSelectedData() {
 }
 
 const createCard = (people) => {
-    const selected = document.querySelector('[data-js="dropdown"]');
-
     section.classList.add('section');
     document.body.append(section);
 

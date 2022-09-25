@@ -6,13 +6,13 @@ section {
   margin-left: 1rem;
 }
 .Alive {
-    background-color: lightgreen;
+  background-color: var(--card-aliveColor);
 }
 .Dead {
-    background-color: lightgray;
+  background-color: var(--card-DeadColor);
 }
 .unknown {
-    background-color: lawngreen;
+  background-color: var(--card-unknownColor);
 }
 .card {
   display: flex;

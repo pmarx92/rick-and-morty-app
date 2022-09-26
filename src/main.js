@@ -13,7 +13,6 @@ async function fetchSelectedData() {
 
     section.textContent = "";
     createCard(data.results);
-
 }
 
 const createCard = (people) => {
@@ -56,7 +55,7 @@ const createCard = (people) => {
         gender.classList.add('card-content-list');
         gender.textContent = "Type: " + person.gender;
         ul.append(gender);
-  
+
         card.classList.add(person.status);
 
     })

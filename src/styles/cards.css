@@ -4,13 +4,13 @@ section {
   flex-wrap: wrap;
   margin-top: 1rem;
   margin-left: 1rem;
+  padding: 25px;
 }
 .Alive {
   background-color: var(--card-aliveColor);
 }
 .Dead {
   background-color: var(--card-DeadColor);
-
 }
 .unknown {
   background-color: var(--card-unknownColor);

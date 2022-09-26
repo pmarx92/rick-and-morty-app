@@ -12,6 +12,7 @@ async function fetchSelectedData() {
     const data = await response.json();
 
     section.textContent = "";
+    searchBar.value = "";
     createCard(data.results);
 }
 
